@@ -6,7 +6,7 @@ const dashedDate =
   (todayDate.getMonth() + 1) +
   "-" +
   todayDate.getDate();
-let baseUrl = "https://api.football-data.org/v4";
+let baseUrl = "https://proxy.cors.sh/https://api.football-data.org/v4";
 
 let sections = document.querySelectorAll("section");
 let menu = document.querySelectorAll(".header ul li");
